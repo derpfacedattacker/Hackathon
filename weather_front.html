@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<header>
+    Weather Finder
+</header>
+
+<body>
+
+  <img src = "WeatherFinder.jpg" alt = "Weather Finder Logo">
+
+  <div class = "description">
+    <header class="description">
+      Project Inspiration
+    </header>
+    In typical weather websites, the weather is displayed chronologically, usually by hour/day/week. We noticed there is typically no filter to search for when a certain weather phenomenon is going to occur; the user must search for it manually. This causes individuals to have to browse through weather forecasts for an excess amount of time to find the weather they're searching for. Our inspiration for this project stems from the desire for a "reverse weather website" that could be much more time-efficient for tasks like event planning and much more.
+  </div>
+
+  <div class = "weatherData">
+    <header class="weather">
+      Weather
+    </header>
+    <div id = 'display'>
+
+    </div>
+    <div id = 'content'>
+
+    </div>
+  </div>
+
+  <div class = "dropContainer">
+
+    <div class ="dropdown">
+      Search By Weather:
+      <br>
+
+      <select name = "weather" class="dropdown-content" id = "weather">
+        <option value = "Rain">Rainy</option>
+        <option value = "Clouds">Cloudy</option>
+        <option value = "Clear">Clear</option>
+        <option value = "Snow">Snowing</option>
+      </select>
+
+    <br>
+
+    <button class="search" onclick="weatherSearch();">
+
+      Search
+
+      
+
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
